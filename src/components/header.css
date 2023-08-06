@@ -1,10 +1,12 @@
 .header-bar {
   display: flex;
+  flex-direction: row;
   height: 148px;
   font-size: 40px;
   font-weight: 600;
   color: #ffffff;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 70px;
   align-items: center;
   background-color: #ff2950;
 }
@@ -52,7 +54,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 40px 0;
+  margin: 0px 0;
 }
 .social-text {
   font-size: 18px;
